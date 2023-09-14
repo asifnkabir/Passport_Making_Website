@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Passport Bro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+
+</head>
+<body style="background-color: palegreen;">
+
+    <!-- navbar -->
+
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+            <a href="#">
+                <img src="images/ezgif.com-webp-to-jpg-removebg-preview.png" class="navbar-brand container" style="width: 70px;" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productsPasses.html">Passports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactBro.html">Contact Bro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Form and Images -->
+
+    <section class="mb-3">
+    <div class="container">
+        <div class="row justify-content-evenly">
+        <div class="col-md-6 col-sm-3 rounded bg-success">
+            
+            <!-- Form -->
+            
+            <div class="mb-2">
+            <h4 class="text-center text-white mt-2">Client Registration</h4>
+            </div>
+
+            <form>
+                <div class="mb-2">
+                    <label for="email" class="text-white">E-Mail: </label><br>
+                    <input type="email" id="email" class="form-control" required placeholder="Enter Your E-Mail Here">
+                </div>
+                <div class="mb-2">
+                    <label for="name" class="text-white">Name: </label><br>
+                    <input type="text" id="name" class="form-control" required placeholder="Enter Your Name Here">
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="text-white">Password: </label><br>
+                    <input type="password" id="pass" class="form-control" required placeholder="Enter A Password Here">
+                </div>
+
+                <div class="mb-2">
+                    <div>
+                        <h6 class="text-white">Select Gender</h6>
+                    </div>
+                <div class="form-check">
+                    <input name="gender" type="radio" class="form-check-input" id="male">
+                    <label for="male" class="text-white">Male</label>
+                </div>
+                <div class="form-check">
+                    <input name="gender" type="radio" class="form-check-input" id="female">
+                    <label for="female" class="text-white">Female</label>
+                </div>
+                </div>
+
+                <div class="mb-2">
+                    <button id='submit-button' class="btn btn-info">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- Thumbnail Image -->
+
+        <div class="col-md-6 col-sm-3 border border-3 rounded text-center bg-success">
+            <img class="img-thumbnail mt-3 mb-4" src="images/main_1648019019.jpg" alt="Image not available">
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Cards -->
+
+    <section class="bg-success justify-content-evenly mb-3">
+        <div class="mb-2">
+            <h4 class="text-white text-center">Our Main Attractions</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white">
+                <div class="card">
+                    <img src="images/Bangladeshi_E_Passport.jpg" alt="BD Pass" class="card-img-top img-thumbnail">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark"> Bangladesh Passport</h5>
+                </div>
+                <div class="card-text text-dark">
+                    <p>Issued by the People's Republic of Bangladesh</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white">
+                <div class="card">
+                    <img src="images/pngtree-canadian-passport-border-visit-travel-photo-image_345706.jpg" alt="Can Pass" class="card-img-top img-thumbnail">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark"> Canada Passport</h5>
+                </div>
+                <div class="card-text text-dark">
+                    <p>Issued By the Government of Canada</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white">
+                <div class="card">
+                    <img src="images/Us-passport.jpg" alt="US Pass" class="card-img-top img-thumbnail">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark"> USA Passport</h5>
+                </div>
+                <div class="card-text text-dark">
+                    <p>Issued by the Government of The United States of America</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-white">
+                <div class="card">
+                    <img src="images/British_Passport_-_Series_C.jpg" alt="UK Pass" class="card-img-top img-thumbnail">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark"> UK Passport</h5>
+                </div>
+                <div class="card-text text-dark">
+                    <p>Issued by the Goverment of The United Kingdom and Northern Ireland.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-success">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                <ul class="navbar-nav ms-auto text-white">
+                    <li class="nav-item"><a class="nav-link" href="contactBro.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productsPasses.html">Passports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactBro.html">Contact Bro</a></li>
+                    <p>Copyright 2023 Asif Nahyan Kabir</p>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
